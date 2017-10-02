@@ -16,7 +16,7 @@ def countdown_with_sleep(start)
   count = start
 
   while count > 0
-    puts "${count} SECOND(S)!"
+    puts "#{count} SECOND(S)!"
 
     count -= 1
     sleep(1)

@@ -5,7 +5,7 @@ def countdown(start)
 
   while count > 0
     count -= 1
-    puts "count"
+    puts count
     sleep(1)
   end
 end

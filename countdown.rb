@@ -4,7 +4,7 @@ def countdown(start)
   count = start
 
   while count > 0
-    puts "${count} SECOND(S)!"
+    puts "#{count} SECOND(S)!"
 
     count -= 1
   end

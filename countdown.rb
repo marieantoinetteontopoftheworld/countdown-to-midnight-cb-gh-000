@@ -4,8 +4,9 @@ def countdown(start)
   count = start
 
   while count > 0
-    count -= 1
     puts count
+
+    count -= 1
     sleep(1)
   end
 end
